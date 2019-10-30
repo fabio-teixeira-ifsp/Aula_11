@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>IFSP - Aula 11: React (Introdução)</title>
-<script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-<script src="index.js" ></script>
-</head>
-<body>
-  
-  <div id="root"></div>
+/**
+ * 
+ */
 
-<!--  script type="text/babel">
 class MyForm extends React.Component {
   constructor(props) {
     super(props);
@@ -57,7 +46,3 @@ class MyForm extends React.Component {
 }
 
 ReactDOM.render(<MyForm />, document.getElementById('root'));
-</script-->
-
-</body>
-</html>
